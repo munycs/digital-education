@@ -1,11 +1,12 @@
 /* src/assets/styles/Footer.css */
 footer {
-    background-color: #333;
+    background-color: #e5c5c5;
     color: #fff;
     text-align: center;
     padding: 15px 0;
     position: fixed;
-    width: 100%;
+    width: 80%;
     bottom: 0;
+    margin: auto;
   }
   
