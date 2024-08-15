@@ -1,0 +1,14 @@
+/* src/assets/styles/Courses.css */
+.course-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    padding: 20px;
+    padding-bottom: 100px;
+  }
+  
+  h1 {
+    text-align: center;
+    margin-top: 30px;
+  }
+  

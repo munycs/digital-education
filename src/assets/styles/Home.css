@@ -1,0 +1,172 @@
+/* src/assets/styles/Home.css */
+
+/* Hero Section */
+.hero-section {
+    background: url('../images/hero.jpeg') no-repeat center center/cover transparent;
+    color: white;
+    padding: 100px 20px;
+    text-align: center;
+  }
+  
+  .hero-content h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+    color: rgb(185, 9, 220);
+    font-weight: 900;
+    text-shadow: #090505;
+    outline: #090505;
+  }
+  
+  .hero-content p {
+    font-size: 1.25rem;
+    margin-bottom: 30px;
+    color: rgb(185, 9, 220);
+    font-weight: 600;
+  }
+  
+  .hero-button {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 1rem;
+  }
+  
+  .hero-button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* About Me Section */
+  .about-me-section {
+    padding: 60px 20px;
+    background-color: #f9f9f9;
+    text-align: center;
+  }
+  
+  .about-me-section h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+  }
+  
+  .about-me-section p {
+    font-size: 1.25rem;
+    margin-bottom: 20px;
+  }
+  
+  .about-me-section ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .about-me-section ul li {
+    font-size: 1.1rem;
+    margin: 10px 0;
+  }
+  
+  /* Featured Courses Section */
+  .featured-courses-section {
+    padding: 60px 20px;
+    text-align: center;
+  }
+  
+  .featured-courses-section h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+  }
+  
+  .course-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+  }
+  
+  .see-more-button {
+    display: inline-block;
+    margin-top: 20px;
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 1rem;
+  }
+  
+  .see-more-button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Contact Section */
+.contact-section {
+    padding-top: 60px;
+    padding-bottom: 100px;
+    background-color: #333;
+    color: white;
+    text-align: center;
+  }
+  
+  .contact-section h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+  }
+  
+  .contact-section form {
+    max-width: 500px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  .contact-section input, 
+  .contact-section textarea {
+    width: 100%;
+    padding: 15px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+  }
+  
+  .contact-section input:focus, 
+  .contact-section textarea:focus {
+    outline: none;
+    border: 2px solid #007bff;
+    background-color: #444;
+    color: white;
+  }
+  
+  .contact-section textarea {
+    height: 150px;
+    resize: none;
+  }
+  
+  .contact-section button {
+    padding: 15px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+  }
+  
+  .contact-section button:hover {
+    background-color: #0056b3;
+  }
+  .contact-section button {
+    margin: auto;
+    width: 100%;
+    padding: 15px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    margin-top: 10px; /* Optional: To add some spacing between the textarea and button */
+  }
+  
+  .contact-section button:hover {
+    background-color: #0056b3;
+  }
+  

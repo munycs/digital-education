@@ -1,0 +1,19 @@
+/* src/assets/styles/CourseDetail.css */
+h1 {
+    text-align: center;
+    margin-top: 30px;
+  }
+  
+  img {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+    border-radius: 10px;
+  }
+  
+  p {
+    text-align: center;
+    margin-top: 20px;
+    color: #555;
+  }
+  
