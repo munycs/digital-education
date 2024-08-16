@@ -5,7 +5,7 @@ import CourseCard from '../components/CourseCard';
 import '../assets/styles/Home.css';
 
 const Home = ({ courses }) => {
-  const featuredCourses = courses.slice(0, 10); // Display only the first 10 courses
+  const featuredCourses = courses.slice(0, 12); // Display only the first 10 courses
 
   return (
     <div>
