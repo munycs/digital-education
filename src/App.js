@@ -11,13 +11,14 @@ import Contact from './pages/Contact';
 import image1 from './assets/images/image1.jpeg'; // Import the image
 import image2 from './assets/images/image2.jpeg'; // Import the image
 import image3 from './assets/images/image3.jpeg'; // Import the image
+import image4 from './assets/images/image4.jpeg'; // Import the image
 
 const App = () => {
   const [courses] = useState([
     { id: 1, title: 'Web Development Bootcamp', description: 'Learn to build modern web applications using HTML, CSS, JavaScript, and more.', image: image1 },
     { id: 2, title: 'Data Science with Python', description: 'Master data science concepts and tools with Python.', image: image2 },
     { id: 3, title: 'Introduction to Machine Learning', description: 'Explore the fundamentals of machine learning and build your first models.', image: image3 },
-    { id: 4, title: 'UI/UX Design Essentials', description: 'Learn the principles of design to create user-friendly interfaces.', image: image1 },
+    { id: 4, title: 'UI/UX Design Essentials', description: 'Learn the principles of design to create user-friendly interfaces.', image: image4 },
     { id: 5, title: 'Digital Marketing Masterclass', description: 'Become an expert in digital marketing strategies.', image: image1 },
     { id: 6, title: 'Mobile App Development', description: 'Create your own mobile apps using React Native and Flutter.', image: image1 },
     { id: 7, title: 'Cloud Computing with AWS', description: 'Understand the basics of cloud computing with Amazon Web Services.', image: image1 },
